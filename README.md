@@ -11,7 +11,7 @@ This repository contains the implementation of our neural network solution to th
 
 ```
 ## Folder Structure
-├── data/                       # Datasets used for training / evaluation ([Data prep process](https://github.com/koleshjr/MPEG-G-Microbiome-Classification-Challenge/tree/main/data_prep)
+├── data/                       # Datasets used for training / evaluation / inference
 ├── centralised/               # Code for centralized learning setup
 ├── federated/                 # Code for federated learning setup
 └── README.md   
