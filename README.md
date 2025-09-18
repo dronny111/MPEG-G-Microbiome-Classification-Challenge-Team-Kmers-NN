@@ -76,4 +76,5 @@ python federated/inference.py
 ## Acknowledgements
 
 
-This work was a collaborative effort by [Koleshjr](https://github.com/Koleshjr) and [DrCod](https://github.com/DrCod, https://github.com/dronny111).
+This work was a collaborative effort by [Koleshjr](https://github.com/Koleshjr) and DrCod ([DrCod](https://github.com/DrCod) / [dronny111](https://github.com/dronny111))
+
