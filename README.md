@@ -19,10 +19,9 @@ Folder Structure
 ```
 
 
-Key Components
 ---
 
-Feature extraction — [same](https://github.com/koleshjr/MPEG-G-Microbiome-Classification-Challenge/tree/main/data_prep)
+Feature extraction uses the [same](https://github.com/koleshjr/MPEG-G-Microbiome-Classification-Challenge/tree/main/data_prep) pipeline.
 
 ---
 
