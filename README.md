@@ -1,8 +1,9 @@
 MPEG-G Microbiome Classification Challenge — Team Kmers NN Approach
 
+---
 
 Overview
-
+---
 Can you classify microbiome samples by body site and individual using compressed data?
 
 Your goal is to build a machine learning model that classifies a microbiome sample’s body site—stool, oral, skin, or nasal—based on its 16S rRNA gene sequence profile encoded in MPEG-G format, along with health status tags, and participant metadata. Briefly, 16S rRNA is used to identify and classify bacteria by sequencing a specific region of the 16S ribosomal RNA gene and aligning it to a database, which is highly conserved among bacteria, allowing for taxonomic classification.
