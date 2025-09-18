@@ -1,6 +1,6 @@
 MPEG-G Microbiome Classification Challenge — Team Kmers NN Approach
-
 ---
+
 
 Overview
 ---
@@ -20,44 +20,55 @@ This repository contains the implementation of our neural network solution to th
 
 
 Key Components
+---
 
 Feature extraction — [same](https://github.com/koleshjr/MPEG-G-Microbiome-Classification-Challenge/tree/main/data_prep)
 
+---
 
 To install:
+---
 
 pip install -r requirements.txt
 
+---
+
 Usage
+---
 
 Extract features and store inside `data/`
 
 
 Centralised Pipeline:
+---
 
 Training:
+
 
 chmod +x centralised/run_all.sh
 
 
 ./centralised/run_all.sh
 
+---
 
 Inference:
 
 python ./centralised/inference.py
 
+---
 
-
-
-Federated Training:
-
+Federated Pipeline:
+---
 
 Training:
 
 python federated/run_simulation.py
 
+---
 
 Inference:
 
 python federated/inference.py
+
+---
