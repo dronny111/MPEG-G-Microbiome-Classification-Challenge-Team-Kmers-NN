@@ -37,7 +37,6 @@ class MicrobiomeTabularConvNet(nn.Module):
         return x
 
 
-# --------------------------------------------------------------
 def load_checkpoints(dir_path: str) -> list[dict]:
     """Read every *.pth file that matches the naming convention."""
     ckpts = []

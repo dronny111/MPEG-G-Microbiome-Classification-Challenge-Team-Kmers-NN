@@ -90,7 +90,7 @@ def main(args):
     for fold in range(NUM_FOLDS):
         free_memory()
         print("\n" + "#" * 80)
-        print(f"🚂 Training fold {fold}/{NUM_FOLDS - 1}")
+        print(f"🚂 Training fold {fold+1}/{NUM_FOLDS}")
 
         tr_idx = train_feat["fold"] != fold
         val_idx = train_feat["fold"] == fold
@@ -136,6 +136,7 @@ def main(args):
             model.eval()
             val_loss = 0.0
             correct = 0
+            total = 0
             all_probs = []
             with torch.no_grad():
                 with EmissionsTracker(project_name="centralised_training") as trk:
@@ -147,10 +148,11 @@ def main(args):
                         val_loss += loss.item()
                         preds = logits.argmax(dim=1)
                         correct += (preds == yb).sum().item()
+                        total += yb.size(0)
                         all_probs.append(torch.softmax(logits, dim=1).cpu().numpy())
                     trk.stop()
             val_loss /= len(val_loader)
-            val_acc = correct / len(val_idx)
+            val_acc = correct / total
 
             print(
                 f"[fold {fold}] Epoch {epoch:02d} | "
