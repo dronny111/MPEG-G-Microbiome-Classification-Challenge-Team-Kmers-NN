@@ -12,9 +12,10 @@ This repository contains the implementation of our neural network solution to th
 
 ```
 Folder Structure
-├── data/                       # Datasets used for training / evaluation / inference
+├── data/                      # Datasets used for training / evaluation / inference
 ├── centralised/               # Code for centralized learning setup
 ├── federated/                 # Code for federated learning setup
+├── requirements.txt            
 └── README.md   
 ```
 
@@ -71,3 +72,8 @@ Inference:
 python federated/inference.py
 
 ---
+
+## Acknowledgements
+
+
+This work was a collaborative effort by [Koleshjr](https://github.com/Koleshjr) and [DrCod](https://github.com/DrCod, https://github.com/dronny111).
