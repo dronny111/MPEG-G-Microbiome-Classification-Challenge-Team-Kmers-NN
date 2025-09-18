@@ -11,7 +11,7 @@ Your goal is to build a machine learning model that classifies a microbiome samp
 This repository contains the implementation of our neural network solution to the MPEG-G Microbiome Classification Challenge. 
 
 ```
-## Folder Structure
+Folder Structure
 ├── data/                       # Datasets used for training / evaluation / inference
 ├── centralised/               # Code for centralized learning setup
 ├── federated/                 # Code for federated learning setup
